@@ -4,5 +4,17 @@ function paragraphSelector() {
 
 function lastImageSelector() {
   let images = $('img');
-  return images[images - 1];
+  return images[images.length - 1];
+}
+
+function ninjaBabySelector() {
+  return $('#baby-ninja');
+}
+
+function divSelector() {
+  return $('div');
+}
+
+function firstListItem() {
+  return $('ul li');
 }
